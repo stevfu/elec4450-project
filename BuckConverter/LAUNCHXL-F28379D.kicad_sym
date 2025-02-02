@@ -1,0 +1,949 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "LAUNCHXL-F28379D" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -12.2428 15.9258 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "LAUNCHXL-F28379D" (id 1) (at -12.7 -17.272 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "LAUNCHXL-F28379D:MOD_LAUNCHXL-F28379D" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "2.0" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Texas Instruments" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "LAUNCHXL-F28379D_1_0"
+      (rectangle (start -12.7 -15.24) (end 12.7 15.24)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin bidirectional line (at -17.78 10.16 0) (length 5.08)
+        (name "GPIO32"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 7.62 0) (length 5.08)
+        (name "GPIO19/SCIRXDB"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 5.08 0) (length 5.08)
+        (name "GPIO18/SCITXDB"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 2.54 0) (length 5.08)
+        (name "GPIO67"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 0.0 0) (length 5.08)
+        (name "GPIO111"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 -2.54 0) (length 5.08)
+        (name "GPIO60/SPICLKA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 -5.08 0) (length 5.08)
+        (name "GPIO22"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 -7.62 0) (length 5.08)
+        (name "GPIO105/I2CSCLA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 -10.16 0) (length 5.08)
+        (name "GPIO104/I2CSDAA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -17.78 12.7 0) (length 5.08)
+        (name "3.3V_J1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J1_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "LAUNCHXL-F28379D_2_0"
+      (rectangle (start -12.7 -12.7) (end 12.7 15.24)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin bidirectional line (at -17.78 10.16 0) (length 5.08)
+        (name "GPIO61/SPIACS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 7.62 0) (length 5.08)
+        (name "GPIO123/SD1CLK1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 5.08 0) (length 5.08)
+        (name "GPIO122/SD1D1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 2.54 0) (length 5.08)
+        (name "~{RESET_J2}"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 0.0 0) (length 5.08)
+        (name "GPIO58/SPIAMOSI"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 -2.54 0) (length 5.08)
+        (name "GPIO59/SPIAMISO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 -10.16 0) (length 5.08)
+        (name "GPIO29/OPXBAR6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 -5.08 0) (length 5.08)
+        (name "GPIO124/SD1D2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -17.78 -7.62 0) (length 5.08)
+        (name "GPIO125/SD1CLK2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -17.78 12.7 0) (length 5.08)
+        (name "GND_J2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J2_10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "LAUNCHXL-F28379D_3_0"
+      (rectangle (start -15.24 -15.24) (end 15.24 15.24)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin power_in line (at -20.32 10.16 0) (length 5.08)
+        (name "GND_J3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 7.62 0) (length 5.08)
+        (name "ADCIN14/ANALOGIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 2.54 0) (length 5.08)
+        (name "ADCINB3/ANALOGIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 0.0 0) (length 5.08)
+        (name "ADCINA3/ANALOGIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -2.54 0) (length 5.08)
+        (name "ADCINC2/ANALOGIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -5.08 0) (length 5.08)
+        (name "ADCINB2/ANALOGIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 5.08 0) (length 5.08)
+        (name "ADCINC3/ANALOGIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -7.62 0) (length 5.08)
+        (name "ADCINA2/ANALOGIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -10.16 0) (length 5.08)
+        (name "ADCINA0/ANALOGIN(DACA)"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -20.32 12.7 0) (length 5.08)
+        (name "+5V_J3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J3_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "LAUNCHXL-F28379D_4_0"
+      (rectangle (start -15.24 -15.24) (end 15.24 15.24)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin bidirectional line (at -20.32 10.16 0) (length 5.08)
+        (name "GPIO1/PWMOUT1B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J4_9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 5.08 0) (length 5.08)
+        (name "GPIO3/PWMOUT2B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J4_7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 2.54 0) (length 5.08)
+        (name "GPIO4/PWMOUT3A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J4_6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 0.0 0) (length 5.08)
+        (name "GPIO5/PWMOUT3B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J4_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -2.54 0) (length 5.08)
+        (name "GPIO24/OPXBAR1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J4_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -5.08 0) (length 5.08)
+        (name "GPIO16/OPXBAR7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J4_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 7.62 0) (length 5.08)
+        (name "GPIO2//PWMOUT2A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J4_8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -7.62 0) (length 5.08)
+        (name "PWM/BASED/DAC1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J4_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -10.16 0) (length 5.08)
+        (name "PWM/BASED/DAC2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J4_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 12.7 0) (length 5.08)
+        (name "GPIO0/PWMOUT1A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J4_10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "LAUNCHXL-F28379D_5_0"
+      (rectangle (start -15.24 -15.24) (end 15.24 15.24)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin bidirectional line (at -20.32 10.16 0) (length 5.08)
+        (name "GPIO95"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J5_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 5.08 0) (length 5.08)
+        (name "GPIO56/SCICIX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J5_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 2.54 0) (length 5.08)
+        (name "GPIO97"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J5_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 0.0 0) (length 5.08)
+        (name "GPIO94"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J5_6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -2.54 0) (length 5.08)
+        (name "GPIO65/SPIBCLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J5_7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -5.08 0) (length 5.08)
+        (name "GPIO52"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J5_8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 7.62 0) (length 5.08)
+        (name "GPIO139/SCICRX"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J5_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -7.62 0) (length 5.08)
+        (name "GPIO41/I2CSCLB/J5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J5_9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -10.16 0) (length 5.08)
+        (name "GPIO40/I2CSDAB/J5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J5_10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -20.32 12.7 0) (length 5.08)
+        (name "3.3V_J5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J5_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "LAUNCHXL-F28379D_6_0"
+      (rectangle (start -15.24 -15.24) (end 15.24 15.24)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin bidirectional line (at -20.32 10.16 0) (length 5.08)
+        (name "GPIO66/SPIBCS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J6_9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 5.08 0) (length 5.08)
+        (name "GPIO130/SD2D1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J6_7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 2.54 0) (length 5.08)
+        (name "~{RESET_J6}"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J6_6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 0.0 0) (length 5.08)
+        (name "GPIO63/SPIBMOSI"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J6_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -2.54 0) (length 5.08)
+        (name "GPIO64/SPIBMISO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J6_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -5.08 0) (length 5.08)
+        (name "GPIO26/SD2D2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J6_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 7.62 0) (length 5.08)
+        (name "GPIO131/SD2CLK1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J6_8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -7.62 0) (length 5.08)
+        (name "GPIO27/SD2CLK2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J6_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -10.16 0) (length 5.08)
+        (name "GPIO25/OPXBAR2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J6_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -20.32 12.7 0) (length 5.08)
+        (name "GND_J6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J6_10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "LAUNCHXL-F28379D_7_0"
+      (rectangle (start -15.24 -15.24) (end 15.24 15.24)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin power_in line (at -20.32 10.16 0) (length 5.08)
+        (name "GND_J7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J7_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 5.08 0) (length 5.08)
+        (name "ADCINC5/ANALOGIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J7_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 2.54 0) (length 5.08)
+        (name "ADCINB5/ANALOGIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J7_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -2.54 0) (length 5.08)
+        (name "ADCINC4/ANALOGIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J7_7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 0.0 0) (length 5.08)
+        (name "ADCINA5/ANALOGIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J7_6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -5.08 0) (length 5.08)
+        (name "ADCINB4/ANALOGIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J7_8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 7.62 0) (length 5.08)
+        (name "ADCIN15/ANALOGIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J7_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -7.62 0) (length 5.08)
+        (name "ADCINA4/ANALOGIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J7_9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -10.16 0) (length 5.08)
+        (name "ADCINA1/ANALOGIN(DACB)"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J7_10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -20.32 12.7 0) (length 5.08)
+        (name "+5V_J7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J7_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "LAUNCHXL-F28379D_8_0"
+      (rectangle (start -15.24 -15.24) (end 15.24 15.24)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin bidirectional line (at -20.32 10.16 0) (length 5.08)
+        (name "GPIO7/PWMOUT4B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J8_9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 5.08 0) (length 5.08)
+        (name "GPIO9/PWMOUT5B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J8_7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 2.54 0) (length 5.08)
+        (name "GPIO10/PWMOUT6A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J8_6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -2.54 0) (length 5.08)
+        (name "GPIO14/OPXBAR3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J8_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 0.0 0) (length 5.08)
+        (name "GPIO11/PWMOUT6B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J8_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -5.08 0) (length 5.08)
+        (name "GPIO15/OPXBAR4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J8_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 7.62 0) (length 5.08)
+        (name "GPIO8/PWMOUT5A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J8_8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -7.62 0) (length 5.08)
+        (name "PWM/BASED/DAC3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J8_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 -10.16 0) (length 5.08)
+        (name "PWM/BASED/DAC4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J8_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -20.32 12.7 0) (length 5.08)
+        (name "GPIO6/PWMOUT4A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J8_10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "LAUNCHXL-F28379D_9_0"
+      (rectangle (start -7.62 -7.62) (end 7.62 2.54)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin power_in line (at -12.7 -2.54 0) (length 5.08)
+        (name "GND_J10"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J10_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 0.0 0) (length 5.08)
+        (name "+3V_J10"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J10_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -5.08 0) (length 5.08)
+        (name "GND_J10__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J10_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "LAUNCHXL-F28379D_10_0"
+      (rectangle (start -7.62 -5.08) (end 7.62 5.08)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin bidirectional line (at -12.7 0.0 0) (length 5.08)
+        (name "CANL"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J12_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -2.54 0) (length 5.08)
+        (name "GND_J12"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J12_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -12.7 2.54 0) (length 5.08)
+        (name "CANH"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J12_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "LAUNCHXL-F28379D_11_0"
+      (rectangle (start -7.62 -7.62) (end 7.62 7.62)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin bidirectional line (at -12.7 2.54 0) (length 5.08)
+        (name "EQEP1B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J14_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -2.54 0) (length 5.08)
+        (name "+5V_J14"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J14_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -5.08 0) (length 5.08)
+        (name "GND_J14"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J14_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -12.7 0.0 0) (length 5.08)
+        (name "EQEP1I"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J14_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -12.7 5.08 0) (length 5.08)
+        (name "EQEP1A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J14_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "LAUNCHXL-F28379D_12_0"
+      (rectangle (start -7.62 -7.62) (end 7.62 7.62)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin bidirectional line (at -12.7 2.54 0) (length 5.08)
+        (name "EQEP2B"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J15_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -2.54 0) (length 5.08)
+        (name "+5V_J15"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J15_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -5.08 0) (length 5.08)
+        (name "GND_J15"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J15_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -12.7 0.0 0) (length 5.08)
+        (name "EQEP2I"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J15_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -12.7 5.08 0) (length 5.08)
+        (name "EQEP2A"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J15_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "LAUNCHXL-F28379D_13_0"
+      (rectangle (start -15.24 -7.62) (end 15.24 5.08)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin input line (at -20.32 2.54 0) (length 5.08)
+        (name "ADCIND0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J21_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 0.0 0) (length 5.08)
+        (name "ADCIND1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J21_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 -2.54 0) (length 5.08)
+        (name "ADCIND2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J21_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 -5.08 0) (length 5.08)
+        (name "ADCIND3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J21_7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 2.54 180.0) (length 5.08)
+        (name "TP21/GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J21_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 0.0 180.0) (length 5.08)
+        (name "TP22/GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J21_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -2.54 180.0) (length 5.08)
+        (name "TP23/GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J21_6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -5.08 180.0) (length 5.08)
+        (name "TP24/GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J21_8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+    (symbol "LAUNCHXL-F28379D_14_0"
+      (rectangle (start -7.62 -5.08) (end 7.62 5.08)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin power_in line (at -12.7 0.0 0) (length 5.08)
+        (name "GND_J16"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J16_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 2.54 0) (length 5.08)
+        (name "+5V_J16"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J16_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -2.54 0) (length 5.08)
+        (name "GND_J16__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "J16_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
