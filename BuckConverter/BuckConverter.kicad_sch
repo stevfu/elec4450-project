@@ -347,7 +347,7 @@
 			)
 		)
 	)
-	(text "TESTING KICAD + GITHUB (Andrew Nguyen)\nEdit List\n02-16 -> I have found footprints for all missing parts, all of our components are in PCB design. Ready to place and route.\n"
+	(text "TESTING KICAD + GITHUB (Andrew Nguyen)\nEdit List\n02-16 -> I have found footprints for all missing parts, all of our components are in PCB design. Ready to place and route.\n02-17 -> Finished PCB"
 		(exclude_from_sim no)
 		(at 24.384 121.158 0)
 		(effects

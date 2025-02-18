@@ -17,25 +17,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
+			(property "Reference" "U1"
+				(at -0.254 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "LM358"
-				(at 0 -5.08 0)
+				(at 0 4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -54,6 +52,15 @@
 				)
 			)
 			(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "LM358DGKR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -120,7 +127,7 @@
 					)
 				)
 				(pin input line
-					(at -7.62 -2.54 0)
+					(at -7.62 2.54 0)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -138,7 +145,7 @@
 					)
 				)
 				(pin input line
-					(at -7.62 2.54 0)
+					(at -7.62 -2.54 0)
 					(length 2.54)
 					(name "+"
 						(effects
@@ -520,6 +527,526 @@
 				)
 			)
 		)
+		(symbol "LM358_1"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U1"
+				(at -0.254 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM358"
+				(at 0 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "LM358DGKR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM358_1_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM358_1_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM358_1_3_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LM358_2"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U1"
+				(at -0.254 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM358"
+				(at 0 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "LM358DGKR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM358_2_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM358_2_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM358_2_3_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -755,6 +1282,18 @@
 		(color 0 0 0 0)
 		(uuid "c9d753b3-1473-47a3-aef0-b1bb797a1007")
 	)
+	(no_connect
+		(at 120.65 96.52)
+		(uuid "4285c1e5-6aa6-4652-8b87-0678c1e1c394")
+	)
+	(no_connect
+		(at 135.89 93.98)
+		(uuid "bbd5c6e0-6245-4535-82fd-c8b83801f419")
+	)
+	(no_connect
+		(at 120.65 91.44)
+		(uuid "f2a07db5-354f-415b-9506-34551c1ae681")
+	)
 	(wire
 		(pts
 			(xy 93.98 45.72) (xy 93.98 49.53)
@@ -777,6 +1316,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 45.72) (xy 81.28 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dfa1ff5-54ba-4e79-bfab-549f56055955")
+	)
+	(wire
+		(pts
 			(xy 100.33 29.21) (xy 100.33 40.64)
 		)
 		(stroke
@@ -794,6 +1343,36 @@
 			(type default)
 		)
 		(uuid "33a6eb01-b981-43ae-ad26-35f91657bc04")
+	)
+	(wire
+		(pts
+			(xy 29.21 31.75) (xy 30.48 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb2eb40-94df-446c-87d1-de9717dba332")
+	)
+	(wire
+		(pts
+			(xy 81.28 40.64) (xy 82.55 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d6fcf9-b2dc-42ff-ae0d-62f660e92ef9")
+	)
+	(wire
+		(pts
+			(xy 33.02 78.74) (xy 33.02 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d9555b2-aec4-4b89-827a-566ead58c7a4")
 	)
 	(wire
 		(pts
@@ -963,6 +1542,46 @@
 		)
 		(uuid "6daa80ba-147c-4300-9881-66cfdcede195")
 	)
+	(label "VFLIT"
+		(at 120.65 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b92679e-54e0-4837-a83d-b7158e150e6a")
+	)
+	(label "IN"
+		(at 27.94 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c58cf09-0a25-4573-8460-ac1ec86aed31")
+	)
+	(label "OUT"
+		(at 49.53 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9aa817bc-ab8f-4a53-92a2-5ccf3caeaf60")
+	)
+	(label "IN"
+		(at 77.47 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1ad5cb2-3ee0-4fde-81ad-29ec11a4f327")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 29.21 40.64 180)
@@ -976,7 +1595,7 @@
 	)
 	(hierarchical_label "IN"
 		(shape input)
-		(at 29.21 36.83 180)
+		(at 27.94 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1074,6 +1693,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 81.28 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ad6d2c2-5ca5-4f3a-88aa-d558497edffd")
+		(property "Reference" "#PWR054"
+			(at 74.93 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.724 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec017f2d-547b-4897-948d-4fdbfacc7553")
+		)
+		(instances
+			(project "BuckConverter"
+				(path "/fd6bac42-b74a-4329-b064-b676c79abc2c/3b7721cc-2c2d-455e-a8f7-184f5b45c1dc"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 93.98 53.34 0)
 		(unit 1)
@@ -1083,7 +1768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c0ed08c-e00c-4f25-8ce8-444d03e4abf3")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 96.52 52.0699 0)
 			(effects
 				(font
@@ -1146,7 +1831,7 @@
 		(instances
 			(project "BuckConverter"
 				(path "/fd6bac42-b74a-4329-b064-b676c79abc2c/3b7721cc-2c2d-455e-a8f7-184f5b45c1dc"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -1154,7 +1839,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 86.36 40.64 270)
+		(at 86.36 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1179,7 +1864,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 86.36 38.862 90)
+			(at 86.36 42.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1298,7 +1983,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 110.49 29.21 270)
+		(at 110.49 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1323,7 +2008,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 110.49 27.432 90)
+			(at 110.49 30.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1440,6 +2125,7 @@
 		)
 	)
 	(symbol
+		(lib_name "LM358_2")
 		(lib_id "Amplifier_Operational:LM358")
 		(at 111.76 43.18 0)
 		(unit 1)
@@ -1608,7 +2294,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9c4934f-f00d-4b51-995e-997014863f3b")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 83.058 43.688 90)
 			(effects
 				(font
@@ -1669,7 +2355,7 @@
 		(instances
 			(project "BuckConverter"
 				(path "/fd6bac42-b74a-4329-b064-b676c79abc2c/3b7721cc-2c2d-455e-a8f7-184f5b45c1dc"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -1819,7 +2505,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2c7f932-deab-4438-a94b-b667d3b4e359")
 		(property "Reference" "U1"
-			(at 128.27 83.82 0)
+			(at 128.016 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +2513,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 128.27 86.36 0)
+			(at 128.27 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,6 +2880,7 @@
 		)
 	)
 	(symbol
+		(lib_name "LM358_1")
 		(lib_id "Amplifier_Operational:LM358")
 		(at 35.56 87.63 0)
 		(unit 3)
@@ -2204,21 +2891,19 @@
 		(fields_autoplaced yes)
 		(uuid "ff20a8de-971b-462b-b495-bc58384fadd7")
 		(property "Reference" "U1"
-			(at 34.29 86.3599 0)
+			(at 35.306 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "LM358"
-			(at 34.29 88.8999 0)
+			(at 35.56 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"

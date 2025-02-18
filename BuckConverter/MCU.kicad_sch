@@ -3178,10 +3178,6 @@
 		(uuid "f9d54611-ceaa-46da-81a6-bddf38322959")
 	)
 	(no_connect
-		(at 161.29 69.85)
-		(uuid "fadfaf07-2dcc-4294-b4c2-0b755a873cac")
-	)
-	(no_connect
 		(at 160.02 36.83)
 		(uuid "fb1390a7-2438-4871-a7a8-8152ba899694")
 	)
@@ -8456,7 +8452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad4b1717-5611-4d6d-a48f-edd943e1af85")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 84.074 36.576 90)
 			(effects
 				(font
@@ -8511,7 +8507,7 @@
 		(instances
 			(project "BuckConverter"
 				(path "/fd6bac42-b74a-4329-b064-b676c79abc2c/b0f193ef-9a87-4c47-af17-4207c54df54c"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -11400,7 +11396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f722514c-22b8-4778-9924-9f532c844a9f")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 95.2499 36.83 0)
 			(effects
 				(font
@@ -11463,7 +11459,7 @@
 		(instances
 			(project "BuckConverter"
 				(path "/fd6bac42-b74a-4329-b064-b676c79abc2c/b0f193ef-9a87-4c47-af17-4207c54df54c"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
