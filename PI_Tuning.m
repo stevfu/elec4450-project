@@ -1,37 +1,39 @@
-clc; clear; close all;
+clc; 
+clear; 
+close all;
 
-% Define the plant transfer function
+% Plant Transfer Function 
 s = tf('s');
-plant = 50 / (s^2 * 0.02 * (2.5e-6) + (0.02/300) * s + 1);
+plant = 3.3 / (s^2 * 0.02 * (2.5e-6) + (0.02/300) * s + 1);
 
 % Target crossover frequency and phase margin
-wc_target = 10;  % Desired crossover frequency in rad/s
-pm_target = 60;  % Desired phase margin in degrees
+wc = 10;  % Desired crossover frequency in rad/s
+pm = 60;  % Desired phase margin in degrees
 
-% Initial PI tuning using pidtune with target crossover frequency
-C0 = pidtune(plant, 'PI', wc_target);
-Kp0 = C0.Kp;
-Ki0 = C0.Ki;
+% Use "pidtune" for initial K_p and K_i values 
+parameters = pidtune(plant, 'PI', wc);
+Kp = parameters.Kp;
+Ki = parameters.Ki;
 
 % Ensure Kp0 and Ki0 are positive
-if Kp0 <= 0, Kp0 = 1e-3; end
-if Ki0 <= 0, Ki0 = 1e-3; end
+if Kp <= 0, Kp = 1e-3; end
+if Ki <= 0, Ki = 1e-3; end
 
 % Optimization using fmincon
 options = optimoptions('fmincon', 'Display', 'iter', 'Algorithm', 'sqp');
 
 % Initial guess
-x0 = [Kp0, Ki0];
+x0 = [Kp, Ki];
 
 % Bounds for Kp and Ki
-lb = [Kp0*0.1, Ki0*0.1];
-ub = [Kp0*10, Ki0*10];
+lb = [Kp*0.1, Ki*0.1];
+ub = [Kp*10, Ki*10];
 
 % Constraint function
-nonlincon = @(x) enforce_constraints(x, plant, wc_target, pm_target);
+nonlincon = @(x) enforce_constraints(x, plant, wc, pm);
 
 % Optimize
-optimal_params = fmincon(@(x) cost_function(x, plant, wc_target), x0, [], [], [], [], lb, ub, nonlincon, options);
+optimal_params = fmincon(@(x) cost_function(x, plant, wc), x0, [], [], [], [], lb, ub, nonlincon, options);
 
 % Extract optimal Kp and Ki
 optimal_Kp = optimal_params(1);
