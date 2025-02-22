@@ -4,14 +4,14 @@ close all;
 
 % Plant Transfer Function 
 s = tf('s');
-plant = 36 / (s^2 * 0.02 * (2.5e-6) + (0.02/300) * s + 1);
+plant = 3.3 / (s^2 * 0.02 * (2.5e-6) + (0.02/300) * s + 1);
 
 % Target crossover frequency and phase margin
 wc = 20;  % Desired crossover frequency in rad/s
 pm = 60;  % Desired phase margin in degrees
 
 % Use "pidtune" for initial K_p and K_i values 
-parameters = pidtune(plant, 'PI', wc);
+parameters = pidtune(plant, 'PI', wc, 'PhaseMargin');
 Kp = parameters.Kp;
 Ki = parameters.Ki;
 
@@ -41,8 +41,7 @@ optimal_Ki = optimal_params(2);
 
 % Define optimized PI controller
 C_optimal = pid(optimal_Kp, optimal_Ki);
-save("optimalController.mat","C_optimal"); 
-
+save()
 % Closed-loop system
 loop_transfer = C_optimal * plant;
 closed_loop = feedback(loop_transfer, 1);
@@ -96,5 +95,3 @@ function [c, ceq] = enforce_constraints(x, plant, wc_target, pm_target)
     % 2. Enforce the crossover frequency to match wc_target (equality constraint)
     ceq = wcp - wc_target;
 end
-
-
