@@ -1777,7 +1777,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "500"
 			(at 96.52 54.6099 0)
 			(effects
 				(font
@@ -1786,7 +1786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 92.202 53.34 90)
 			(effects
 				(font
@@ -1813,7 +1813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0805FT10K0"
+		(property "Part Number" "RT0603BRC07500RL"
 			(at 93.98 53.34 0)
 			(effects
 				(font
@@ -1855,7 +1855,7 @@
 				)
 			)
 		)
-		(property "Value" "10000"
+		(property "Value" "10k"
 			(at 86.36 36.83 90)
 			(effects
 				(font
@@ -1999,7 +1999,7 @@
 				)
 			)
 		)
-		(property "Value" "?"
+		(property "Value" "500"
 			(at 110.49 25.4 90)
 			(effects
 				(font
@@ -2007,7 +2007,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 110.49 30.988 90)
 			(effects
 				(font
@@ -2034,7 +2034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0805FT10K0"
+		(property "Part Number" "RT0603BRC07500RL"
 			(at 110.49 29.21 0)
 			(effects
 				(font
@@ -2295,15 +2295,15 @@
 		(dnp no)
 		(uuid "a9c4934f-f00d-4b51-995e-997014863f3b")
 		(property "Reference" "R4"
-			(at 83.058 43.688 90)
+			(at 85.09 48.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "?"
-			(at 85.598 43.688 90)
+		(property "Value" "10k"
+			(at 85.09 50.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
