@@ -3929,7 +3929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TMV 0512SHI"
 			(at 93.98 52.07 0)
 			(effects
 				(font

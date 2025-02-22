@@ -2674,7 +2674,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22u"
 			(at 106.68 55.8799 0)
 			(effects
 				(font
@@ -2710,7 +2710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "C2012X5R1V226M125AC"
 			(at 102.87 54.61 0)
 			(effects
 				(font
@@ -2753,7 +2753,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1u"
 			(at 49.53 88.8999 0)
 			(effects
 				(font
