@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "uwinlogo")(type "KiCad")(uri "${KIPRJMOD}/uwinlogo")(options "")(descr ""))
+  (lib (name "Squirtlefootprint")(type "KiCad")(uri "${KIPRJMOD}/Squirtlefootprint")(options "")(descr ""))
+  (lib (name "uwinengineeringlogo")(type "KiCad")(uri "${KIPRJMOD}/uwinengineeringlogo")(options "")(descr ""))
+  (lib (name "Totoro")(type "KiCad")(uri "${KIPRJMOD}/Totoro")(options "")(descr ""))
+)
