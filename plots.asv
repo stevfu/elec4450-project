@@ -57,10 +57,11 @@ for i = 1:numPlots
     print(hfig,fname,'-dpng','-painters')
 end 
 
-%% For Multiple Plots With Subtitles  
+%%
+%% For Multiple Plots  
 numPlots = 3; 
-t = out.ControllerOutput.time; 
-data = out.ControllerOutput;
+t = out.Power_Output.time; 
+data = out.Power_Output;
 
 hfig = figure;
 titles = ["Error", "Duty Cycle", "Resistance"]; % Define subtitles
@@ -72,7 +73,7 @@ for i = 1:numPlots
     ylabel('$Voltage$ (mV)')
     title(titles(i), 'Interpreter', 'latex') % Add subtitle
 
-    fname = 'Controller_Output';
+    fname = 'myfigure';
     
     picturewidth = 20; % Set this parameter and keep it forever
     hw_ratio = 0.65; % Feel free to play with this ratio
