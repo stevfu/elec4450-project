@@ -3628,7 +3628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "LAUNCHXL-F28379D"
 			(at 45.72 167.64 0)
 			(effects
 				(font
@@ -4187,7 +4187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "LAUNCHXL-F28379D"
 			(at 228.6 44.45 0)
 			(effects
 				(font
@@ -4880,7 +4880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "LAUNCHXL-F28379D"
 			(at 40.64 67.31 0)
 			(effects
 				(font
@@ -5305,7 +5305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "LAUNCHXL-F28379D"
 			(at 214.63 146.05 0)
 			(effects
 				(font
@@ -5767,6 +5767,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "IR26-21C_L110_TR8"
+			(at 85.09 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e03977a4-d8c0-43ff-b290-3503f69906a4")
 		)
@@ -5868,7 +5877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "LAUNCHXL-F28379D"
 			(at 199.39 134.62 0)
 			(effects
 				(font
@@ -6360,7 +6369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "LAUNCHXL-F28379D"
 			(at 224.79 69.85 0)
 			(effects
 				(font
@@ -6852,7 +6861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "LAUNCHXL-F28379D"
 			(at 181.61 77.47 0)
 			(effects
 				(font
@@ -7344,7 +7353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "LAUNCHXL-F28379D"
 			(at 41.91 100.33 0)
 			(effects
 				(font
@@ -7903,7 +7912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "LAUNCHXL-F28379D"
 			(at 180.34 39.37 0)
 			(effects
 				(font
@@ -8498,6 +8507,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "IR26-21C_L110_TR8"
+			(at 83.82 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "97e6f9bc-665a-41bf-a879-d470884f6071")
 		)
@@ -8780,6 +8798,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "IR26-21C_L110_TR8"
+			(at 85.09 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86fe5558-b642-4cda-8721-507878725002")
 		)
@@ -8879,7 +8906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "LAUNCHXL-F28379D"
 			(at 219.71 97.79 0)
 			(effects
 				(font
@@ -9304,7 +9331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "LAUNCHXL-F28379D"
 			(at 180.34 109.22 0)
 			(effects
 				(font
@@ -9863,7 +9890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "LAUNCHXL-F28379D"
 			(at 223.52 118.11 0)
 			(effects
 				(font
@@ -10422,7 +10449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "LAUNCHXL-F28379D"
 			(at 246.38 133.35 0)
 			(effects
 				(font
@@ -10847,7 +10874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" ""
+		(property "Part Number" "LAUNCHXL-F28379D"
 			(at 44.45 134.62 0)
 			(effects
 				(font

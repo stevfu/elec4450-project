@@ -2145,7 +2145,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "GRM31CC72A475KE11L"
+		(property "Value" "4.7 µF"
 			(at 171.45 58.4199 90)
 			(effects
 				(font
@@ -2175,6 +2175,15 @@
 		)
 		(property "Description" ""
 			(at 167.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM31CC72A475KE11L"
+			(at 167.64 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2727,7 +2736,7 @@
 				)
 			)
 		)
-		(property "Value" "5900-333-RC"
+		(property "Value" "33mH"
 			(at 154.94 43.18 0)
 			(effects
 				(font
@@ -2756,6 +2765,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 147.32 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "5900-333-RC"
 			(at 147.32 48.26 0)
 			(effects
 				(font

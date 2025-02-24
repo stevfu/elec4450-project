@@ -2581,6 +2581,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "IR26-21C_L110_TR8"
+			(at 215.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fbcd710c-9a35-4fa6-b12b-323167ca9530")
 		)
@@ -2646,6 +2655,15 @@
 		)
 		(property "Description" "600F330FT250XT"
 			(at 82.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "600F330FT250XT"
+			(at 82.55 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3314,6 +3332,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "RC0805FR-0751RL"
+			(at 71.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c0d76ca9-49fa-4189-b3cf-e750849b6d09")
 		)
@@ -3443,6 +3470,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 100.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "UCC5304DWVR"
 			(at 100.33 80.01 0)
 			(effects
 				(font
@@ -3830,6 +3866,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "IR26-21C_L110_TR8"
+			(at 189.23 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b8bcf24f-fb89-4b95-962b-547f75d9605f")
 		)
@@ -4063,6 +4108,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "US2AA"
 			(at 182.88 82.55 0)
 			(effects
 				(font
@@ -4490,6 +4544,15 @@
 			)
 		)
 		(property "Description" "TMV 0512SHI"
+			(at 93.98 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "TMV 0512SHI"
 			(at 93.98 52.07 0)
 			(effects
 				(font
