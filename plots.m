@@ -3,15 +3,16 @@
 %% For Singular Plot 
 
 hfig = figure("Name","Picture");  % save the figure handle in a variable
-t = out.I_ref.time; 
-data = out.I_ref.signals(1).values;
+t = out.Inductor.time; 
+data = out.Inductor.signals(2).values;
 
 plot(t,data,'k-','LineWidth',1.5,'DisplayName','$\Omega(t)$','Color',"#00FF00");
 xlabel('Time $t$ (s)')
-ylabel('Current ($mA$)')
-fname = 'myfigure';
+ylabel('Voltage ($V$)')
 
+title('Voltage Output', 'Interpreter', 'latex', 'FontSize', 14)
 
+fname = 'Voltage Output';
 
 
 picturewidth = 20; % set this parameter and keep it forever
@@ -31,7 +32,7 @@ print(hfig,fname,'-dpng','-painters')
 
 %% For Multiple Plots 
 
-numPlots = 3; 
+numPlots = 2; 
 t = out.Power_Output.time; 
 data = out.Power_Output;
 
@@ -57,22 +58,23 @@ for i = 1:numPlots
     print(hfig,fname,'-dpng','-painters')
 end 
 
-%% For Multiple Plots With Subtitles  
+%% For Multiple Plots With Subtitles and Y-axis Labelling
 numPlots = 3; 
-t = out.ControllerOutput.time; 
-data = out.ControllerOutput;
+t = out.Controller.time; 
+data = out.Controller;
 
 hfig = figure;
 titles = ["Error", "Duty Cycle", "Resistance"]; % Define subtitles
+ylabels = ["", "", "Resistance (Ohms)"]; % Define different Y-axis labels
 
 for i = 1:numPlots
     subplot(numPlots,1,i);
     plot(t, data.signals(i).values, 'k-', 'LineWidth', 1.5, 'DisplayName', '$\Omega(t)$', 'Color', "#00FF00");
     xlabel('time $t$ (s)')
-    ylabel('$Voltage$ (mV)')
+    ylabel(ylabels(i), 'Interpreter', 'latex') % Set different Y-axis labels
     title(titles(i), 'Interpreter', 'latex') % Add subtitle
 
-    fname = 'Controller_Output';
+    fname = 'Controller Output';
     
     picturewidth = 20; % Set this parameter and keep it forever
     hw_ratio = 0.65; % Feel free to play with this ratio
