@@ -3085,7 +3085,7 @@
 				)
 			)
 		)
-		(property "Value" "12R"
+		(property "Value" "12"
 			(at 171.45 80.01 90)
 			(effects
 				(font
@@ -3986,7 +3986,7 @@
 				)
 			)
 		)
-		(property "Value" "7R"
+		(property "Value" "7"
 			(at 171.704 88.138 90)
 			(effects
 				(font
@@ -4021,7 +4021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "RMCF0805FT10K0"
+		(property "Part Number" "CRCW08057R15FKEA"
 			(at 171.45 90.17 0)
 			(effects
 				(font
@@ -4159,7 +4159,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50R"
+		(property "Value" "50"
 			(at 194.31 96.5199 0)
 			(effects
 				(font
