@@ -5857,7 +5857,7 @@
 		(at 33.274 97.282 -90)
 		(tags "600F330FT250XT ")
 		(property "Reference" "C9"
-			(at 0 0 -90)
+			(at -2.032 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "a70f3892-99be-4b92-b225-92d2803b24ed")
@@ -12286,7 +12286,7 @@
 			)
 		)
 		(property "Footprint" "P8"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "601aaca1-c34e-4938-b979-47cb24369b4f")
@@ -12298,7 +12298,7 @@
 			)
 		)
 		(property "Datasheet" "LM358AP"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "696b2e19-63d0-41d4-bc97-8d3d35a975bd")
@@ -12310,7 +12310,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0c0feb81-3ffc-4342-92ca-790ee14d8d8b")
@@ -12884,7 +12884,7 @@
 			)
 		)
 		(fp_text user "*"
-			(at -7.62 -9.0678 360)
+			(at -7.62 -9.0678 0)
 			(layer "F.SilkS")
 			(uuid "862bf197-56b7-40b0-8f0e-97f7cdcc100e")
 			(effects
@@ -12907,7 +12907,7 @@
 			)
 		)
 		(fp_text user "*"
-			(at -7.62 -9.0678 360)
+			(at -7.62 -9.0678 0)
 			(layer "F.Fab")
 			(uuid "a774cecd-f520-4127-ba21-b4b839184e17")
 			(effects
@@ -17860,7 +17860,7 @@
 		(at 29.972 96.774)
 		(tags "RC0805FR-0751RL ")
 		(property "Reference" "R9"
-			(at 0 0 0)
+			(at 0 -1.778 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "13dddda1-6470-41aa-95d6-699725890ccf")
