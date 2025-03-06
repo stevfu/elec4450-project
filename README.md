@@ -11,6 +11,6 @@ $$\Delta V_o = 0.5 \% V_o$$
 
 The layout, schematic and PCB design of the buck converter was done in KiCAD. 
 
-!(Pictures/Buck Converter.png)
+!([Pictures/Buck Converter.png](https://github.com/stevfu/elec4450-project/blob/main/Pictures/Buck%20Converter.png))
 
 
