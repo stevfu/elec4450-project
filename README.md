@@ -3,14 +3,14 @@ My group designed a unidirectional buck converter with an active low-pass filter
 
 The following specifications for this converter are: 
 
-$$ V_i = 36-50V$$ 
-$$ V_o = 30V $$
-$$ f_sw = 10kHz$$
-$$\Delta I_L = 30 \% I_L$$
-$$\Delta V_o = 0.5 \% V_o$$
+**Input Voltage**: Vi = 36–50V  
+**Output Voltage**: Vo = 30V  
+**Switching Frequency**: fsw = 10kHz  
+**Inductor Current Ripple**: ΔIL = 30% IL  
+**Output Voltage Ripple**: ΔVo = 0.5% Vo
 
 The layout, schematic and PCB design of the buck converter was done in KiCAD. 
 
-!(Pictures/Buck Converter.png)
+![Buck Converter](Pictures/Buck Converter.png)
 
 
