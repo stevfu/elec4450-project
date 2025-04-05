@@ -4,15 +4,15 @@ My group designed a unidirectional buck converter with an active low-pass filter
 The following specifications for this converter are: 
 
 $$
-V_i = 36\,\text{V} \text{ to } 50\,\text{V}
+V_i = 36\text{V} - 50\text{V}
 $$
 
 $$
-V_o = 30\,\text{V}
+V_o = 30\text{V}
 $$
 
 $$
-f_{sw} = 10\,\text{kHz}
+f_{sw} = 10\text{kHz}
 $$
 
 $$
@@ -22,6 +22,7 @@ $$
 $$
 \Delta V_o = 0.005 V_o
 $$
+
 The layout, schematic and PCB design of the buck converter was done in KiCAD. 
 
 ![Buck Converter](Pictures/Buck Converter.png)
