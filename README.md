@@ -25,6 +25,6 @@ $$
 
 The layout, schematic and PCB design of the buck converter was done in KiCAD. 
 
-![Buck Converter](Pictures/Buck Converter.png)
+![Buck Converter](Pictures/Buck%20Converter.png)
 
 
